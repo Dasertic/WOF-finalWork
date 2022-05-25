@@ -1,0 +1,385 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .landing_name {
+        font-size: 15px;
+    }
+
+    #Data1 {
+        margin-top: 55px;
+    }
+
+    #Data1>div>article>div>div>div>div>button {
+        width: 30px;
+        height: 30px;
+    }
+
+    #Data1>div>article>div>div>div>div>button>a {
+        font-size: 10px;
+    }
+
+    .carousel-caption {
+        bottom: 10%;
+        padding: 0;
+        font-size: 15px;
+    }
+
+    .textJelo {
+        font-size: 7px;
+        padding: 0;
+        text-align: left;
+        width: 100px;
+        height: 50px;
+        overflow: scroll;
+    }
+
+    .headline {
+        font-size: 30px;
+    }
+
+    .SpanjolskaZastava {
+        /* background: url('images/zastave/spanjolska_60x40.jpg') no-repeat center center/cover; */
+        background-image: url("../images/zastave/spanjolska_60x40.jpg");
+        background-repeat: no-repeat;
+        height: 25px;
+        width: 40px;
+        background-position: center;
+        background-size: cover;
+        top: 10px;
+        left: 5px;
+        position: relative;
+        float: left;
+    }
+
+    .TalijanskaZastava {
+        /* background: url('images/zastave/spanjolska_60x40.jpg') no-repeat center center/cover; */
+        background-image: url("../images/zastave/italija_60x40.jpg");
+        background-repeat: no-repeat;
+        height: 25px;
+        width: 40px;
+        background-position: center;
+        background-size: cover;
+        top: 10px;
+        left: 5px;
+        position: relative;
+        float: left;
+    }
+
+    .JapanZastava {
+        /* background: url('images/zastave/spanjolska_60x40.jpg') no-repeat center center/cover; */
+        background-image: url("../images/zastave/japan_60x40.jpg");
+        background-repeat: no-repeat;
+        height: 25px;
+        width: 40px;
+        background-position: center;
+        background-size: cover;
+        top: 10px;
+        left: 5px;
+        position: relative;
+        float: left;
+    }
+
+    .FrancuskaZastava {
+        /* background: url('images/zastave/spanjolska_60x40.jpg') no-repeat center center/cover; */
+        background-image: url("../images/zastave/francuska_60x40.jpg");
+        background-repeat: no-repeat;
+        height: 25px;
+        width: 40px;
+        background-position: center;
+        background-size: cover;
+        top: 10px;
+        left: 5px;
+        position: relative;
+        float: left;
+    }
+
+    .HrvatskaZastava {
+        /* background: url('images/zastave/spanjolska_60x40.jpg') no-repeat center center/cover; */
+        background-image: url("../images/zastave/Hrvatska_60x40.jpg");
+        background-repeat: no-repeat;
+        height: 25px;
+        width: 40px;
+        background-position: center;
+        background-size: cover;
+        top: 10px;
+        left: 5px;
+        position: relative;
+        float: left;
+    }
+
+    .brand-heading {
+        font-family: 'Montserrat', cursive;
+        color: whitesmoke;
+        font-size: 20px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        font-weight: 900;
+    }
+
+    .intro-text {
+        color: #fed136;
+        font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+        font-size: 15px;
+        font-style: italic;
+    }
+
+    .btn-circle {
+        width: 60px;
+        height: 60px;
+        margin-top: 0px;
+        padding: 7px 16px;
+        border: 2px solid transparent;
+        border-radius: 100% !important;
+        font-size: 25px;
+        color: white;
+        background: transparent;
+        -webkit-transition: background 0.3s ease-in-out;
+        -moz-transition: background 0.3s ease-in-out;
+        transition: background 0.3s ease-in-out;
+    }
+
+    .textDesignCarasual {
+        font-size: 10px;
+    }
+
+    .pricaText {
+        font-size: 20px;
+        text-align: left;
+        padding: 20px;
+    }
+
+    .videoContainer {
+        width: 300%;
+    }
+
+    .overlay {
+        width: 35%;
+    }
+
+    .fs40fw900 {
+        font-size: 30px;
+    }
+
+    .info {
+        font-size: 20px;
+    }
+
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .landing_name {
+        font-size: 25px;
+    }
+
+    #Data1 {
+        margin-top: 55px;
+    }
+
+    .carousel-caption {
+        bottom: 10%;
+        padding: 0;
+        font-size: 15px;
+    }
+
+    .textJelo {
+        font-size: 20px;
+        text-align: left;
+        font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive;
+        font-size: 15px;
+        font-style: italic;
+    }
+
+    .SpanjolskaZastava {
+        /* background: url('images/zastave/spanjolska_60x40.jpg') no-repeat center center/cover; */
+        background-image: url("../images/zastave/spanjolska_70x50.jpg");
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 70px;
+        background-position: center;
+        background-size: cover;
+        top: 10px;
+        left: 5px;
+        position: relative;
+        float: left;
+    }
+
+    .TalijanskaZastava {
+        /* background: url('images/zastave/spanjolska_60x40.jpg') no-repeat center center/cover; */
+        background-image: url("../images/zastave/italija_70x50.jpg");
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 70px;
+        background-position: center;
+        background-size: cover;
+        top: 10px;
+        left: 5px;
+        position: relative;
+        float: left;
+    }
+
+    .JapanZastava {
+        /* background: url('images/zastave/spanjolska_60x40.jpg') no-repeat center center/cover; */
+        background-image: url("../images/zastave/japan_70x50.jpg");
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 70px;
+        background-position: center;
+        background-size: cover;
+        top: 10px;
+        left: 5px;
+        position: relative;
+        float: left;
+    }
+
+    .FrancuskaZastava {
+        /* background: url('images/zastave/spanjolska_60x40.jpg') no-repeat center center/cover; */
+        background-image: url("../images/zastave/francuska_70x50.jpg");
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 70px;
+        background-position: center;
+        background-size: cover;
+        top: 10px;
+        left: 5px;
+        position: relative;
+        float: left;
+    }
+
+    .HrvatskaZastava {
+        /* background: url('images/zastave/spanjolska_60x40.jpg') no-repeat center center/cover; */
+        background-image: url("../images/zastave/Hrvatska_70x50.jpg");
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 70px;
+        background-position: center;
+        background-size: cover;
+        top: 10px;
+        left: 5px;
+        position: relative;
+        float: left;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .landing_name {
+        font-size: 35px;
+    }
+
+    #Data1 {
+        margin-top: 55px;
+    }
+
+    .SpanjolskaZastava {
+        /* background: url('images/zastave/spanjolska_60x40.jpg') no-repeat center center/cover; */
+        background-image: url("../images/zastave/spanjolska_70x50.jpg");
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 70px;
+        background-position: center;
+        background-size: cover;
+        top: 10px;
+        left: 5px;
+        position: relative;
+        float: left;
+    }
+
+    .TalijanskaZastava {
+        /* background: url('images/zastave/spanjolska_60x40.jpg') no-repeat center center/cover; */
+        background-image: url("../images/zastave/italija_70x50.jpg");
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 70px;
+        background-position: center;
+        background-size: cover;
+        top: 10px;
+        left: 5px;
+        position: relative;
+        float: left;
+    }
+
+    .JapanZastava {
+        /* background: url('images/zastave/spanjolska_60x40.jpg') no-repeat center center/cover; */
+        background-image: url("../images/zastave/japan_70x50.jpg");
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 70px;
+        background-position: center;
+        background-size: cover;
+        top: 10px;
+        left: 5px;
+        position: relative;
+        float: left;
+    }
+
+    .FrancuskaZastava {
+        /* background: url('images/zastave/spanjolska_60x40.jpg') no-repeat center center/cover; */
+        background-image: url("../images/zastave/francuska_70x50.jpg");
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 70px;
+        background-position: center;
+        background-size: cover;
+        top: 10px;
+        left: 5px;
+        position: relative;
+        float: left;
+    }
+
+    .HrvatskaZastava {
+        /* background: url('images/zastave/spanjolska_60x40.jpg') no-repeat center center/cover; */
+        background-image: url("../images/zastave/Hrvatska_70x50.jpg");
+        background-repeat: no-repeat;
+        height: 50px;
+        width: 70px;
+        background-position: center;
+        background-size: cover;
+        top: 10px;
+        left: 5px;
+        position: relative;
+        float: left;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .landing_name {
+        font-size: 45px;
+    }
+
+    #Data1 {
+        margin-top: 0px;
+    }
+
+    .textDesignCarasual {
+        font-size: 60px;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    .JeloDesc {
+        font-size: 30px;
+    }
+
+    .picturePrica {
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .pricaText {
+        font-size: 25px;
+        text-align: left;
+        padding-top: 10%;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {
+    ...
+} */
