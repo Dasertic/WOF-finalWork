@@ -4,19 +4,6 @@
         font-size: 15px;
     }
 
-    #Data1 {
-        margin-top: 55px;
-    }
-
-    #Data1>div>article>div>div>div>div>button {
-        width: 30px;
-        height: 30px;
-    }
-
-    #Data1>div>article>div>div>div>div>button>a {
-        font-size: 10px;
-    }
-
     .carousel-caption {
         bottom: 10%;
         padding: 0;
@@ -147,13 +134,13 @@
         padding: 20px;
     }
 
-    .videoContainer {
+    /* .videoContainer {
         width: 300%;
-    }
+    } */
 
-    .overlay {
+    /* .overlay {
         width: 35%;
-    }
+    } */
 
     .fs40fw900 {
         font-size: 30px;
@@ -162,6 +149,9 @@
     .info {
         font-size: 20px;
     }
+    /* .video {
+        display: none;
+    } */
 
 }
 
@@ -171,10 +161,6 @@
 @media only screen and (min-width: 600px) {
     .landing_name {
         font-size: 25px;
-    }
-
-    #Data1 {
-        margin-top: 55px;
     }
 
     .carousel-caption {
@@ -260,17 +246,15 @@
         position: relative;
         float: left;
     }
-
+    /* .video {
+        display: none;
+    } */
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .landing_name {
         font-size: 35px;
-    }
-
-    #Data1 {
-        margin-top: 55px;
     }
 
     .SpanjolskaZastava {
