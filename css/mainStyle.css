@@ -101,7 +101,7 @@ html::-webkit-scrollbar {
     text-align: center; 
 }
 #Data3 {
-    padding-top: 120px; 
+    padding-top: 100px; 
     padding-bottom: 240px;
     background-color: black;
 }
@@ -384,6 +384,10 @@ html::-webkit-scrollbar {
 
 #navbarNav {
     font-family: sans-serif;
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: rgb(255 255 255 / 0%);
 }
 
 .flex-center {
